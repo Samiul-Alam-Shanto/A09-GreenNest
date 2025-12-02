@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="bg-linear-to-b from-[#1a2419] to-[#151a14]">
       <div className=" container mx-auto text-white ">
-        <div className=" px-5 sm:px-10 lg:px-20 py-8 lg:py-12 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 border-b border-white/10">
+        <div className="px-4 py-8 lg:py-12 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 border-b border-white/10">
           <div>
             <h3 className="text-base font-normal mb-5 text-gray-300">
               Find and follow us
@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" px-5 sm:px-10 lg:px-20 py-8 lg:py-12">
+        <div className=" px-4 py-8 lg:py-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-16">
             <div>
               <h3 className="text-lg font-medium mb-6">Company</h3>
@@ -283,7 +283,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" px-5 sm:px-10 lg:px-20 py-6 lg:py-8 flex flex-col lg:flex-row justify-between items-center gap-6 border-t border-white/10">
+        <div className=" px-4 py-6 lg:py-8 flex flex-col lg:flex-row justify-between items-center gap-6 border-t border-white/10">
           <div className="flex items-center gap-3">
             <FaLeaf className="text-[#7fb069]" size={30} />
             <span className="text-2xl sm:text-3xl font-medium">GreenNest</span>

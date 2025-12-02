@@ -8,10 +8,11 @@ import bg1 from "../../assets/bg-1.jpg";
 import bg2 from "../../assets/bg-2.jpg";
 import bg3 from "../../assets/bg-3.jpg";
 import bg4 from "../../assets/bg-4.jpg";
+import { motion } from "framer-motion";
 
 const HeroSlider = () => {
   return (
-    <section className="h-[600px] container mx-auto pt-16.5 px-4">
+    <section className="h-[70vh]  container mx-auto pt-16.5 px-4">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -22,7 +23,6 @@ const HeroSlider = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper h-full rounded-2xl"
       >
@@ -35,8 +35,22 @@ const HeroSlider = () => {
           >
             <div className="bg-black/60 h-full flex items-center justify-center">
               <div className="text-center text-white">
-                <h1 className="text-5xl font-bold mb-4">Bring Nature Home</h1>
-                <p className="text-xl">One leaf at a time.</p>
+                <motion.h1
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.7, delay: 0.2 }}
+                  className="text-5xl md:text-7xl font-bold mb-4"
+                >
+                  Bring Nature Home
+                </motion.h1>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.7, delay: 0.2 }}
+                  className="text-xl"
+                >
+                  One leaf at a time.
+                </motion.p>
               </div>
             </div>
           </div>
@@ -50,7 +64,7 @@ const HeroSlider = () => {
           >
             <div className="bg-black/60 h-full flex items-center justify-center">
               <div className="text-center text-white">
-                <h1 className="text-5xl font-bold mb-4">
+                <h1 className="text-5xl md:text-7xl font-bold mb-4">
                   Grow Plants, Grow Joy
                 </h1>
                 <p className="text-xl">Let nature bloom inside.</p>
@@ -67,7 +81,7 @@ const HeroSlider = () => {
           >
             <div className="bg-black/60 h-full flex items-center justify-center">
               <div className="text-center text-white">
-                <h1 className="text-5xl font-bold mb-4">
+                <h1 className="text-5xl md:text-7xl font-bold mb-4">
                   Breathe Life Into Your Home
                 </h1>
                 <p className="text-xl">
@@ -86,7 +100,7 @@ const HeroSlider = () => {
           >
             <div className="bg-black/60 h-full flex items-center justify-center">
               <div className="text-center text-white">
-                <h1 className="text-5xl font-bold mb-4">
+                <h1 className="text-5xl md:text-7xl font-bold mb-4">
                   Your Green Sanctuary Awaits
                 </h1>
                 <p className="text-xl">

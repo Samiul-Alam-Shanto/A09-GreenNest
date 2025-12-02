@@ -8,7 +8,7 @@ const PlantCard = ({ plant }) => {
 
   return (
     <div className="card bg-base-100 shadow-xl transition-transform duration-300 hover:scale-105">
-      <figure className="h-96">
+      <figure className="h-72 md:h-48 lg:h-72">
         <img src={image} alt={plantName} className="w-full h-full " />
       </figure>
       <div className="card-body">

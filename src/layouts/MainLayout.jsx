@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar/Navbar";
-import { Outlet, useLocation } from "react-router";
+import { Outlet, ScrollRestoration, useLocation } from "react-router";
 import Footer from "../components/Footer/Footer";
 import GlobalLoading from "../components/Loading/GlobalLoading";
 import AOS from "aos";
@@ -27,6 +27,7 @@ const MainLayout = () => {
   }, []);
   return (
     <div>
+      <ScrollRestoration />
       <header>
         <Navbar />
       </header>

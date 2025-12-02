@@ -10,7 +10,7 @@ const TopRatedPlants = () => {
 
   if (loading) return <TopPlantLoading />;
 
-  const topPlants = plants.sort((a, b) => b.rating - a.rating).slice(0, 6);
+  const topPlants = plants.sort((a, b) => b.rating - a.rating).slice(0, 8);
   //   console.log(topPlants);
   return (
     <section className="my-16 container mx-auto px-4" data-aos="fade-up">
@@ -21,7 +21,7 @@ const TopRatedPlants = () => {
         Loved by our community, perfect for your home.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {topPlants.map((plant) => (
           <PlantCard key={plant.plantId} plant={plant} />
         ))}

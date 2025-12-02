@@ -61,7 +61,7 @@ const PlantCareTips = () => {
           {tips.map((tip, index) => (
             <div
               key={index}
-              className="card bg-base-100 shadow-lg text-center p-8"
+              className="card bg-card-bg shadow-lg text-center p-8"
             >
               <figure className="flex justify-center mb-4">{tip.icon}</figure>
               <h3 className="text-2xl font-bold mb-2">{tip.title}</h3>

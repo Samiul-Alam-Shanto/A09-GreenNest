@@ -9,6 +9,8 @@ import Register from "../pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import ForgotPassword from "../pages/ForgotPassword/ForgotPassword";
+import AboutUs from "../pages/AboutUs/AboutUs";
+import ContactUs from "../pages/ContactUs/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -21,19 +23,23 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/plants",
+        path: "plants",
         element: <AllPlants />,
       },
       {
-        path: "/plants/:id",
-        element: (
-          <PrivateRoute>
-            <PlantDetails />
-          </PrivateRoute>
-        ),
+        path: "plants/:id",
+        element: <PlantDetails />,
       },
       {
-        path: "/profile",
+        path: "about-us",
+        element: <AboutUs />,
+      },
+      {
+        path: "contact",
+        element: <ContactUs />,
+      },
+      {
+        path: "profile",
         element: (
           <PrivateRoute>
             <Profile />
@@ -41,15 +47,15 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/login",
+        path: "login",
         element: <Login />,
       },
       {
-        path: "/register",
+        path: "register",
         element: <Register />,
       },
       {
-        path: "/reset-password",
+        path: "reset-password",
         element: <ForgotPassword />,
       },
     ],
