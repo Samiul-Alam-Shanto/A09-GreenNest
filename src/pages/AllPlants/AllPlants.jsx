@@ -141,8 +141,9 @@ const AllPlants = () => {
             </div>
             {/* sort */}
             <div className="flex items-center gap-4 mt-4 md:mt-0">
-              <span className="text-sm text-primary">
-                {plantsResult.length} Products Found
+              <span className="text-sm text-primary text-nowrap">
+                <span className="font-bold">({plantsResult.length})</span>{" "}
+                Products Found
               </span>
               <select
                 value={sort}

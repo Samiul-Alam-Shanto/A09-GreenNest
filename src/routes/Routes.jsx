@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home/Home";
-import AllPlants from "../pages/AllPlants/Allplants";
+import AllPlants from "../pages/AllPlants/AllPlants";
 import Profile from "../pages/Profile/Profile";
 import PlantDetails from "../pages/PlantDetails/PlantDetails";
 import Login from "../pages/Login/Login";
@@ -11,6 +11,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import ForgotPassword from "../pages/ForgotPassword/ForgotPassword";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import ComingSoon from "../components/ComingSoon/ComingSoon";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: "reset-password",
         element: <ForgotPassword />,
+      },
+      {
+        path: "/coming-soon/:pageName",
+        element: <ComingSoon />,
       },
     ],
   },

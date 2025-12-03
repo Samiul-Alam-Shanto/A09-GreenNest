@@ -23,37 +23,37 @@ const Footer = () => {
             </h3>
             <div className="flex gap-3 flex-wrap">
               <a
-                href="#"
+                href="https://facebook.com"
                 className="w-10 h-10 bg-[#2a3229] border border-[#3a4339] flex items-center justify-center hover:bg-[#3a4339] transition-colors"
               >
                 <FaFacebook size={16} />
               </a>
               <a
-                href="#"
+                href="https://instagram.com"
                 className="w-10 h-10 bg-[#2a3229] border border-[#3a4339] flex items-center justify-center hover:bg-[#3a4339] transition-colors"
               >
                 <FaInstagram size={16} />
               </a>
               <a
-                href="#"
+                href="https://youtube.com"
                 className="w-10 h-10 bg-[#2a3229] border border-[#3a4339] flex items-center justify-center hover:bg-[#3a4339] transition-colors"
               >
                 <FaYoutube size={16} />
               </a>
               <a
-                href="#"
+                href="https://x.com"
                 className="w-10 h-10 bg-[#2a3229] border border-[#3a4339] flex items-center justify-center hover:bg-[#3a4339] transition-colors"
               >
                 <FaTwitter size={16} />
               </a>
               <a
-                href="#"
+                href="https://pinterest.com"
                 className="w-10 h-10 bg-[#2a3229] border border-[#3a4339] flex items-center justify-center hover:bg-[#3a4339] transition-colors"
               >
                 <FaPinterest size={16} />
               </a>
               <a
-                href="#"
+                href="https://tiktok.com"
                 className="w-10 h-10 bg-[#2a3229] border border-[#3a4339] flex items-center justify-center hover:bg-[#3a4339] transition-colors"
               >
                 <svg
@@ -65,7 +65,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://linkedIn.com"
                 className="w-10 h-10 bg-[#2a3229] border border-[#3a4339] flex items-center justify-center hover:bg-[#3a4339] transition-colors"
               >
                 <FaLinkedin size={16} />
@@ -112,7 +112,7 @@ const Footer = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="#"
+                    href="/about-us"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     About
@@ -120,7 +120,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Career"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors inline-flex items-center gap-2"
                   >
                     Career
@@ -131,7 +131,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Reviews"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Reviews
@@ -139,7 +139,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/plants"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Gallery
@@ -153,7 +153,7 @@ const Footer = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="#"
+                    href="plants"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Indoor
@@ -161,7 +161,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/plants"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Succulent
@@ -169,7 +169,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/plants"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Tropical
@@ -177,7 +177,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="plants"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Rare Species
@@ -191,7 +191,7 @@ const Footer = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Care"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Care
@@ -199,7 +199,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Guides"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Guides
@@ -207,7 +207,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Blogs"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Our Blogs
@@ -215,7 +215,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Tips&Tricks"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Tips & Trick
@@ -229,7 +229,7 @@ const Footer = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Privacy_Policy"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Privacy Policy
@@ -237,7 +237,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Return_Policy"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Return Policy
@@ -245,7 +245,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/Shipping"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     Shipping
@@ -253,7 +253,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/coming-soon/FAQ"
                     className="text-gray-400 text-sm hover:text-[#7fb069] transition-colors"
                   >
                     FAQ
