@@ -25,7 +25,7 @@ const PlantCard = ({ plant }) => {
         <div className="card-actions justify-end mt-4">
           <Link
             to={`/plants/${plantId}`}
-            className="btn bg-[#7fb069] text-white cursor-pointer hover:animate-bounce"
+            className="btn bg-[#7fb069] text-white cursor-pointer grow hover:scale-105"
           >
             View Details
           </Link>

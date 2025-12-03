@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
           <Link
             to="/"
-            className="btn btn-ghost normal-case text-xl animate__animated animate__fadeInLeft"
+            className="flex justify-center items-center font-bold gap-2 normal-case text-xl animate__animated animate__fadeInLeft"
           >
             <FaLeaf className="text-green-400" />
             GreenNest
