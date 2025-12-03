@@ -14,7 +14,9 @@ const PlantOfTheWeek = () => {
           alt="ZZ Plant"
         />
         <div className="text-wrap" data-aos={isDesktop ? "fade-right" : ""}>
-          <h3 className="text-2xl font-bold  ">PLANT OF THE WEEK</h3>
+          <h3 className="text-2xl font-bold text-primary ">
+            PLANT OF THE WEEK
+          </h3>
           <h1 className="text-6xl font-bold text-[#527e3e]">Fiddle Leaf Fig</h1>
           <p className="py-6">
             A design icon, the ZZ Plant makes a stunning statement with its
